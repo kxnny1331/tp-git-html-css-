@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Kenny and Samy.co – Agence web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kenny and Samy.co, agence web spécialisée dans la création de sites vitrines pour petites entreprises.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">KS</span>
+        <span class="logo-text">Kenny and Samy.co</span>
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Votre site vitrine, simple et professionnel.</h1>
+          <p>
+            Kenny and Samy.co crée des sites web clairs et efficaces pour artisans, freelances et petites entreprises.
+          </p>
+          <a href="#contact" class="btn">Demander un devis</a>
+        </div>
+        <div class="hero-panel">
+          <h2>Ce que vous obtenez</h2>
+          <ul>
+            <li>Un design moderne et lisible.</li>
+            <li>Un site qui s’adapte au mobile.</li>
+            <li>Une structure prête pour le référencement.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Nos services</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Site vitrine</h3>
+            <p>Une petite dizaine de pages pour présenter votre activité, vos offres et vos coordonnées.</p>
+          </article>
+          <article class="card">
+            <h3>Refonte de site</h3>
+            <p>Modernisation d’un site existant pour le rendre plus clair, plus rapide et plus agréable.</p>
+          </article>
+          <article class="card">
+            <h3>Conseil & accompagnement</h3>
+            <p>Aide au choix du nom de domaine, de l’hébergement et des contenus à mettre en avant.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- A PROPOS -->
+    <section id="apropos" class="section section-alt">
+      <div class="container about">
+        <div>
+          <h2>À propos de Kenny and Samy.co</h2>
+          <p>
+            Petite agence web indépendante basée à Paris, Kenny and Samy.co privilégie le contact direct et les projets concrets.
+          </p>
+          <p>
+            L’objectif est de vous livrer un site simple à comprendre, facile à utiliser et orienté vers vos clients.
+          </p>
+        </div>
+        <div class="about-highlight">
+          <h3>Nos engagements</h3>
+          <ul>
+            <li>Un langage clair, sans jargon technique inutile.</li>
+            <li>Un devis transparent, sans frais cachés.</li>
+            <li>Un site livré clé en main, prêt à être utilisé.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Contact</h2>
+          <p>
+            Envoyez un message avec quelques informations sur votre projet, et Kenny and Samy.co vous répondra rapidement.
+          </p>
+          <p class="contact-info">
+            Email : <strong>contact@kenny-samy.co</strong><br>
+            Basé à : <strong>Paris</strong>
+          </p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Nom / entreprise<br>
+            <input type="text" name="nom" placeholder="Ex : Boulangerie du Centre">
+          </label>
+
+          <label>
+            Adresse e-mail<br>
+            <input type="email" name="email" placeholder="vous@exemple.fr">
+          </label>
+
+          <label>
+            Message<br>
+            <textarea name="message" rows="4" placeholder="Expliquez brièvement votre besoin."></textarea>
+          </label>
+
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Kenny and Samy.co – Site vitrine fictif.</p>
+    </div>
+  </footer>
 </body>
 </html>
